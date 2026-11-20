@@ -1,10 +1,10 @@
-﻿<div align="center">
+<div align="center">
 
-# âœ‚ï¸ quickclip
+# ✂️ quickclip
 
 **Turn one long video into a stack of ready-to-post clips in a single command.**
 
-Paste your timestamps â†’ get frame-accurate MP4s, optionally cropped to 9:16 for Shorts, Reels and TikTok.
+Paste your timestamps → get frame-accurate MP4s, optionally cropped to 9:16 for Shorts, Reels and TikTok.
 
 </div>
 
@@ -19,7 +19,7 @@ Clipping long-form content means cutting dozens of segments a day. Doing it in a
 ## Features
 
 - Timestamps as `ss`, `mm:ss` or `hh:mm:ss`, comma- or newline-separated
-- `--vertical` centre-crops to 1080Ã—1920 for short-form platforms
+- `--vertical` centre-crops to 1080×1920 for short-form platforms
 - `--file` reads a timestamps list (lines starting with `#` are ignored)
 - Installs ffmpeg for you on first run via `static-ffmpeg`
 - Interactive mode if you run it with no arguments
@@ -41,7 +41,7 @@ python quickclip.py video.mp4 "2:00-2:45" --crf 22      # smaller files
 python quickclip.py                                     # asks for input
 ```
 
-Clips are saved as `<video>_cut_01.mp4`, `<video>_cut_02.mp4`, â€¦ in `cuts/`.
+Clips are saved as `<video>_cut_01.mp4`, `<video>_cut_02.mp4`, … in `cuts/`.
 
 ## License
 
